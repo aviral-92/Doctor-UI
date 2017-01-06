@@ -58,7 +58,7 @@ div.box img{
 	margin-top:7%;
 }
 
-div.menu{
+div.menu,menu ul{
 	width:100%;
 	height:9%;
 	border:1px;
@@ -75,7 +75,33 @@ div.menu ul{
 	
 	margin-right:7%;
 }
-
+div.menu li
+{
+    margin-right: 3px;
+    position: relative;
+}
+div.menu a:link
+{
+    display: block;
+    text-align: left;
+     text-decoration: none;
+    color: #000;
+} 
+div.menu ul li
+{
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+ div.menu li:hover
+{
+    background-color: 325C6A;
+   /*  border: 1px solid #000; */
+} 
+/*  div.menu li:hover ul
+{
+    display: block;
+}  */
 #container {
 	
 	color:#000;
